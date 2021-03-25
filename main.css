@@ -1,17 +1,13 @@
-#warrp{  
-    width: 800px;		/*全体の幅を指定する*/  
-}  
-#head{  
-    height: 60px;   		/*高さを指定する*/  
-    background-color: #FFFFD5;  /*わかりやすいように色を指定します*/
-}  
-#leftcontents{  
-    float: left;		/*leftcontentsを左に回り込み*/
-    width: 400px;		/*幅を指定する*/
-    background-color: #D5FFDF;   
-}  
-#rightcontents{  
-    float: right;  		/*rightcontentsを右に回り込み*/
-    width: 400px;		/*幅を指定する*/
-    background-color: #FFEAEA;  
-} 
+@charset "UTF-8";
+body {background-color: #005872;}
+h2 {font-size: 40px;
+  color: #b14c3d;}
+      div {font-size: 20px;
+        color : #005872;}
+
+.inline-block_test {
+  display: inline-block;      /* インラインブロック要素にする */
+  background-color:  #e6d8b2;    /* 背景色指定 */
+  height:  300px;             /* 高さ指定 */
+  width: 600px;                 /* 幅指定 */
+}
