@@ -8,7 +8,10 @@ h1 {font-size: 40px;
       div {font-size: 20px;
         color : #e6d8b2;}
 
-
+iframe {
+          width: 100%; /* 親要素の幅と合わせる */
+          height: 100%;
+        }
 .wrapper {
   display: grid;
   grid-template-columns: 3fr 1fr  ;
