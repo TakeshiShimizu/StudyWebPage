@@ -35,6 +35,10 @@ h1 {font-size: 40px;
   color : #005872;
 }
 
+p.itemization{
+  text-indent: -2em;
+  padding-left: 3em;
+}
 
 
 
